@@ -46,7 +46,7 @@ namespace AracKiralama
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonEkleSozlesme = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -96,9 +96,9 @@ namespace AracKiralama
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.Cornsilk;
             this.groupBox1.Location = new System.Drawing.Point(22, 27);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(274, 209);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -107,7 +107,7 @@ namespace AracKiralama
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(109, 34);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(133, 22);
             this.textBox6.TabIndex = 11;
@@ -115,7 +115,7 @@ namespace AracKiralama
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(109, 57);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(133, 22);
             this.textBox5.TabIndex = 10;
@@ -123,7 +123,7 @@ namespace AracKiralama
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(109, 80);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(133, 22);
             this.textBox4.TabIndex = 9;
@@ -131,7 +131,7 @@ namespace AracKiralama
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(109, 102);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(133, 22);
             this.textBox3.TabIndex = 8;
@@ -139,7 +139,7 @@ namespace AracKiralama
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(109, 125);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(133, 22);
             this.textBox2.TabIndex = 7;
@@ -147,7 +147,7 @@ namespace AracKiralama
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(109, 148);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(133, 22);
             this.textBox1.TabIndex = 6;
@@ -215,7 +215,7 @@ namespace AracKiralama
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.buttonEkleSozlesme);
             this.groupBox2.Controls.Add(this.dateTimePicker2);
             this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.textBox10);
@@ -241,9 +241,9 @@ namespace AracKiralama
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(318, 27);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(455, 209);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
@@ -253,28 +253,28 @@ namespace AracKiralama
             // 
             this.button2.BackColor = System.Drawing.Color.OrangeRed;
             this.button2.Location = new System.Drawing.Point(119, 157);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(70, 34);
             this.button2.TabIndex = 13;
             this.button2.Text = "GÜNCELLE";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // buttonEkleSozlesme
             // 
-            this.button1.BackColor = System.Drawing.Color.SeaGreen;
-            this.button1.Location = new System.Drawing.Point(42, 157);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 34);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "EKLE";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonEkleSozlesme.BackColor = System.Drawing.Color.SeaGreen;
+            this.buttonEkleSozlesme.Location = new System.Drawing.Point(34, 157);
+            this.buttonEkleSozlesme.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonEkleSozlesme.Name = "buttonEkleSozlesme";
+            this.buttonEkleSozlesme.Size = new System.Drawing.Size(68, 34);
+            this.buttonEkleSozlesme.TabIndex = 12;
+            this.buttonEkleSozlesme.Text = "EKLE";
+            this.buttonEkleSozlesme.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(277, 140);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker2.TabIndex = 11;
@@ -282,7 +282,7 @@ namespace AracKiralama
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(277, 117);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker1.TabIndex = 10;
@@ -290,7 +290,7 @@ namespace AracKiralama
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(73, 120);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(116, 22);
             this.textBox10.TabIndex = 9;
@@ -298,7 +298,7 @@ namespace AracKiralama
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(277, 94);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(161, 22);
             this.textBox13.TabIndex = 8;
@@ -306,7 +306,7 @@ namespace AracKiralama
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(73, 97);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(116, 22);
             this.textBox9.TabIndex = 8;
@@ -314,7 +314,7 @@ namespace AracKiralama
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(277, 72);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(161, 22);
             this.textBox12.TabIndex = 7;
@@ -322,7 +322,7 @@ namespace AracKiralama
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(73, 74);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(116, 22);
             this.textBox8.TabIndex = 7;
@@ -330,7 +330,7 @@ namespace AracKiralama
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(277, 49);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(161, 22);
             this.textBox11.TabIndex = 6;
@@ -338,7 +338,7 @@ namespace AracKiralama
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(73, 51);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(116, 22);
             this.textBox7.TabIndex = 6;
@@ -347,7 +347,7 @@ namespace AracKiralama
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(277, 25);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(161, 21);
             this.comboBox2.TabIndex = 5;
@@ -356,7 +356,7 @@ namespace AracKiralama
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(73, 27);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(116, 21);
             this.comboBox1.TabIndex = 5;
@@ -476,7 +476,7 @@ namespace AracKiralama
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(22, 254);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -487,7 +487,7 @@ namespace AracKiralama
             // 
             this.button3.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button3.Location = new System.Drawing.Point(662, 501);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(111, 23);
             this.button3.TabIndex = 14;
@@ -526,7 +526,7 @@ namespace AracKiralama
             this.ClientSize = new System.Drawing.Size(810, 530);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmSozlesme";
             this.Text = "FrmSozlesme";
             this.groupBox1.ResumeLayout(false);
@@ -557,7 +557,7 @@ namespace AracKiralama
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonEkleSozlesme;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox10;
