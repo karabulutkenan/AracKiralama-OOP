@@ -80,10 +80,10 @@ namespace AracKiralama
             this.cikisButton.ForeColor = System.Drawing.Color.White;
             this.cikisButton.Image = ((System.Drawing.Image)(resources.GetObject("cikisButton.Image")));
             this.cikisButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.cikisButton.Location = new System.Drawing.Point(612, 2);
-            this.cikisButton.Margin = new System.Windows.Forms.Padding(2);
+            this.cikisButton.Location = new System.Drawing.Point(816, 2);
+            this.cikisButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cikisButton.Name = "cikisButton";
-            this.cikisButton.Size = new System.Drawing.Size(62, 75);
+            this.cikisButton.Size = new System.Drawing.Size(83, 92);
             this.cikisButton.TabIndex = 6;
             this.cikisButton.Text = "ÇIKIŞ";
             this.cikisButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -114,10 +114,10 @@ namespace AracKiralama
             this.satislarButton.ForeColor = System.Drawing.Color.White;
             this.satislarButton.Image = ((System.Drawing.Image)(resources.GetObject("satislarButton.Image")));
             this.satislarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.satislarButton.Location = new System.Drawing.Point(18, 399);
-            this.satislarButton.Margin = new System.Windows.Forms.Padding(2);
+            this.satislarButton.Location = new System.Drawing.Point(24, 491);
+            this.satislarButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.satislarButton.Name = "satislarButton";
-            this.satislarButton.Size = new System.Drawing.Size(107, 71);
+            this.satislarButton.Size = new System.Drawing.Size(143, 87);
             this.satislarButton.TabIndex = 5;
             this.satislarButton.Text = "SATIŞLAR";
             this.satislarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -136,10 +136,10 @@ namespace AracKiralama
             this.sozlesmeButton.ForeColor = System.Drawing.Color.White;
             this.sozlesmeButton.Image = ((System.Drawing.Image)(resources.GetObject("sozlesmeButton.Image")));
             this.sozlesmeButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.sozlesmeButton.Location = new System.Drawing.Point(18, 324);
-            this.sozlesmeButton.Margin = new System.Windows.Forms.Padding(2);
+            this.sozlesmeButton.Location = new System.Drawing.Point(24, 399);
+            this.sozlesmeButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sozlesmeButton.Name = "sozlesmeButton";
-            this.sozlesmeButton.Size = new System.Drawing.Size(107, 71);
+            this.sozlesmeButton.Size = new System.Drawing.Size(143, 87);
             this.sozlesmeButton.TabIndex = 4;
             this.sozlesmeButton.Text = "SÖZLEŞME";
             this.sozlesmeButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -158,10 +158,10 @@ namespace AracKiralama
             this.aracListeleButton.ForeColor = System.Drawing.Color.White;
             this.aracListeleButton.Image = ((System.Drawing.Image)(resources.GetObject("aracListeleButton.Image")));
             this.aracListeleButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.aracListeleButton.Location = new System.Drawing.Point(18, 249);
-            this.aracListeleButton.Margin = new System.Windows.Forms.Padding(2);
+            this.aracListeleButton.Location = new System.Drawing.Point(24, 306);
+            this.aracListeleButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.aracListeleButton.Name = "aracListeleButton";
-            this.aracListeleButton.Size = new System.Drawing.Size(107, 71);
+            this.aracListeleButton.Size = new System.Drawing.Size(143, 87);
             this.aracListeleButton.TabIndex = 3;
             this.aracListeleButton.Text = "ARAÇ LİSTE";
             this.aracListeleButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -180,10 +180,10 @@ namespace AracKiralama
             this.aracKayitButon.ForeColor = System.Drawing.Color.White;
             this.aracKayitButon.Image = ((System.Drawing.Image)(resources.GetObject("aracKayitButon.Image")));
             this.aracKayitButon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.aracKayitButon.Location = new System.Drawing.Point(18, 168);
-            this.aracKayitButon.Margin = new System.Windows.Forms.Padding(2);
+            this.aracKayitButon.Location = new System.Drawing.Point(24, 207);
+            this.aracKayitButon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.aracKayitButon.Name = "aracKayitButon";
-            this.aracKayitButon.Size = new System.Drawing.Size(107, 71);
+            this.aracKayitButon.Size = new System.Drawing.Size(143, 87);
             this.aracKayitButon.TabIndex = 2;
             this.aracKayitButon.Text = "ARAÇ KAYIT";
             this.aracKayitButon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -202,10 +202,10 @@ namespace AracKiralama
             this.musteriListeleButton.ForeColor = System.Drawing.SystemColors.Info;
             this.musteriListeleButton.Image = ((System.Drawing.Image)(resources.GetObject("musteriListeleButton.Image")));
             this.musteriListeleButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.musteriListeleButton.Location = new System.Drawing.Point(18, 93);
-            this.musteriListeleButton.Margin = new System.Windows.Forms.Padding(2);
+            this.musteriListeleButton.Location = new System.Drawing.Point(24, 114);
+            this.musteriListeleButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.musteriListeleButton.Name = "musteriListeleButton";
-            this.musteriListeleButton.Size = new System.Drawing.Size(115, 71);
+            this.musteriListeleButton.Size = new System.Drawing.Size(153, 87);
             this.musteriListeleButton.TabIndex = 1;
             this.musteriListeleButton.Text = "MÜŞTERİ LİSTE";
             this.musteriListeleButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -226,10 +226,10 @@ namespace AracKiralama
             this.musteriEkleButton.ForeColor = System.Drawing.SystemColors.Info;
             this.musteriEkleButton.Image = ((System.Drawing.Image)(resources.GetObject("musteriEkleButton.Image")));
             this.musteriEkleButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.musteriEkleButton.Location = new System.Drawing.Point(18, 18);
-            this.musteriEkleButton.Margin = new System.Windows.Forms.Padding(2);
+            this.musteriEkleButton.Location = new System.Drawing.Point(24, 22);
+            this.musteriEkleButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.musteriEkleButton.Name = "musteriEkleButton";
-            this.musteriEkleButton.Size = new System.Drawing.Size(107, 71);
+            this.musteriEkleButton.Size = new System.Drawing.Size(143, 87);
             this.musteriEkleButton.TabIndex = 0;
             this.musteriEkleButton.Text = "MÜŞTERİ EKLE";
             this.musteriEkleButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -251,12 +251,13 @@ namespace AracKiralama
             this.bunifuGradientPanel1.Controls.Add(this.bunifuPanel1);
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.DarkSlateBlue;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.CadetBlue;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DarkSlateGray;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Teal;
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(3, 2);
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(4, 2);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(688, 509);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(917, 626);
             this.bunifuGradientPanel1.TabIndex = 1;
             this.bunifuGradientPanel1.Click += new System.EventHandler(this.bunifuGradientPanel1_Click);
             // 
@@ -266,18 +267,20 @@ namespace AracKiralama
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(261, 320);
+            this.panel3.Location = new System.Drawing.Point(348, 394);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(260, 113);
+            this.panel3.Size = new System.Drawing.Size(347, 139);
             this.panel3.TabIndex = 9;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(172, 40);
+            this.pictureBox3.Location = new System.Drawing.Point(229, 49);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 73);
+            this.pictureBox3.Size = new System.Drawing.Size(133, 90);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -287,9 +290,10 @@ namespace AracKiralama
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(45, 31);
+            this.label5.Location = new System.Drawing.Point(60, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 50);
+            this.label5.Size = new System.Drawing.Size(54, 62);
             this.label5.TabIndex = 2;
             this.label5.Text = "0";
             this.label5.Click += new System.EventHandler(this.label3_Click);
@@ -299,9 +303,10 @@ namespace AracKiralama
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(12, 11);
+            this.label6.Location = new System.Drawing.Point(16, 14);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(125, 20);
+            this.label6.Size = new System.Drawing.Size(160, 25);
             this.label6.TabIndex = 0;
             this.label6.Text = "AKTİF SÖZLEŞME";
             this.label6.Click += new System.EventHandler(this.label1_Click);
@@ -312,18 +317,20 @@ namespace AracKiralama
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(261, 185);
+            this.panel2.Location = new System.Drawing.Point(348, 228);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(260, 113);
+            this.panel2.Size = new System.Drawing.Size(347, 139);
             this.panel2.TabIndex = 9;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(146, 43);
+            this.pictureBox2.Location = new System.Drawing.Point(195, 53);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(114, 92);
+            this.pictureBox2.Size = new System.Drawing.Size(152, 113);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -333,9 +340,10 @@ namespace AracKiralama
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(45, 31);
+            this.label2.Location = new System.Drawing.Point(60, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 50);
+            this.label2.Size = new System.Drawing.Size(54, 62);
             this.label2.TabIndex = 2;
             this.label2.Text = "0";
             this.label2.Click += new System.EventHandler(this.label3_Click);
@@ -345,9 +353,10 @@ namespace AracKiralama
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(15, 11);
+            this.label4.Location = new System.Drawing.Point(20, 14);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 20);
+            this.label4.Size = new System.Drawing.Size(142, 25);
             this.label4.TabIndex = 0;
             this.label4.Text = "BOŞTAKİ ARAÇ";
             this.label4.Click += new System.EventHandler(this.label1_Click);
@@ -358,18 +367,20 @@ namespace AracKiralama
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(261, 46);
+            this.panel1.Location = new System.Drawing.Point(348, 57);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(260, 113);
+            this.panel1.Size = new System.Drawing.Size(347, 139);
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(166, 40);
+            this.pictureBox1.Location = new System.Drawing.Point(221, 49);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -379,9 +390,10 @@ namespace AracKiralama
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(45, 31);
+            this.label3.Location = new System.Drawing.Point(60, 38);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 50);
+            this.label3.Size = new System.Drawing.Size(54, 62);
             this.label3.TabIndex = 2;
             this.label3.Text = "0";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -391,9 +403,10 @@ namespace AracKiralama
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(15, 11);
+            this.label1.Location = new System.Drawing.Point(20, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 20);
+            this.label1.Size = new System.Drawing.Size(162, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "KAYITLI MÜŞTERİ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -415,17 +428,18 @@ namespace AracKiralama
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 40;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(114, 31);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(154, 71);
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(165, 47);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(205, 87);
             this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(532, 436);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(709, 537);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
             this.bunifuImageButton1.ShowCursorChanges = false;
             this.bunifuImageButton1.ShowImageBorders = false;
             this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(154, 71);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(205, 87);
             this.bunifuImageButton1.TabIndex = 7;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
@@ -434,7 +448,7 @@ namespace AracKiralama
             // 
             // bunifuPanel1
             // 
-            this.bunifuPanel1.BackgroundColor = System.Drawing.Color.Teal;
+            this.bunifuPanel1.BackgroundColor = System.Drawing.Color.CadetBlue;
             this.bunifuPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel1.BackgroundImage")));
             this.bunifuPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
@@ -446,10 +460,11 @@ namespace AracKiralama
             this.bunifuPanel1.Controls.Add(this.aracKayitButon);
             this.bunifuPanel1.Controls.Add(this.sozlesmeButton);
             this.bunifuPanel1.Controls.Add(this.aracListeleButton);
-            this.bunifuPanel1.Location = new System.Drawing.Point(2, 3);
+            this.bunifuPanel1.Location = new System.Drawing.Point(3, 4);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(147, 500);
+            this.bunifuPanel1.Size = new System.Drawing.Size(196, 615);
             this.bunifuPanel1.TabIndex = 8;
             // 
             // bunifuElipse1
@@ -463,18 +478,18 @@ namespace AracKiralama
             // 
             // FrmAnaSayfa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.BackgroundImage = global::AracKiralama.Properties.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.CancelButton = this.cikisButton;
-            this.ClientSize = new System.Drawing.Size(693, 512);
+            this.ClientSize = new System.Drawing.Size(924, 630);
             this.ControlBox = false;
             this.Controls.Add(this.bunifuGradientPanel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmAnaSayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "K² Araç Kiralama V1.0";

@@ -100,5 +100,10 @@ namespace AracKiralama
             foreach (Control item in GradientPanelListe.Controls) if (item is ComboBox) item.Text = "";
             YenileListele();
         }
+
+        private void comboBoxAraclar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

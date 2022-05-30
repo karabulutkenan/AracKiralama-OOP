@@ -122,7 +122,7 @@ namespace AracKiralama
                 komut2.Parameters.AddWithValue("@kiraUcreti", int.Parse(textUcret.Text));
                 komut2.Parameters.AddWithValue("@resim", pictureBox1.ImageLocation);
                 komut2.Parameters.AddWithValue("@tarih", DateTime.Now.ToString());
-                komut2.Parameters.AddWithValue("@durum", "BOŞ");
+                komut2.Parameters.AddWithValue("@durum", "BOS");
                 arackiralama.ekleSilGuncelle(komut2,text);
                 comboBoxModel.Items.Clear();
                 foreach (Control item in bunifuGradientPanel1.Controls) if (item is TextBox) item.Text = "";

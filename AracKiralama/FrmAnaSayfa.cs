@@ -14,7 +14,7 @@ namespace AracKiralama
 {
     public partial class FrmAnaSayfa : Form
     {
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-82T154B\SQLEXPRESS;Initial Catalog=AracKiralama;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=KENAN\SQLEXPRESS01;Initial Catalog=AracKiralama;Integrated Security=True");
         SqlCommand komut;
         SqlDataReader read;
 
@@ -30,7 +30,7 @@ namespace AracKiralama
             baglanti.Close();
         }
         string musteriSayisi = "select count(*) From musteri";
-        string aracSayisi = "select count(*) From araclar";
+        string aracSayisi = "select count(*) From araclar where durum like 'BOS'";
         string sozlesmeSayisi = "select count(*) From sozlesmeler";
         public FrmAnaSayfa()
         {
