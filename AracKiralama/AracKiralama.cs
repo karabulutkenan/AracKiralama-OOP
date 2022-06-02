@@ -11,7 +11,7 @@ namespace AracKiralama
 {
     class AracKiralama
     {
-        SqlConnection baglanti = new SqlConnection(@"Data Source=KENAN\SQLEXPRESS01;Initial Catalog=AracKiralama;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=localhost;Initial Catalog=AracKiralama;Integrated Security=True");
         DataTable tablo;
 
         public IEnumerable<Control> Controls { get; private set; }

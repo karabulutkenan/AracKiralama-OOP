@@ -14,7 +14,7 @@ namespace AracKiralama
 {
     public partial class FrmAnaSayfa : Form
     {
-        SqlConnection baglanti = new SqlConnection(@"Data Source=KENAN\SQLEXPRESS01;Initial Catalog=AracKiralama;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=localhost;Initial Catalog=AracKiralama;Integrated Security=True");
         SqlCommand komut;
         SqlDataReader read;
 
